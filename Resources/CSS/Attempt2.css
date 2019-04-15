@@ -1,5 +1,9 @@
 #banner {
   display: inline;
+  border-bottom: 1px solid black
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #banner li {
@@ -13,6 +17,19 @@
   flex-direction: column;
   width: 630px;
   justify-content: space-between;
+  text-align: center;
+}
+
+#main_stories .main {
+  background-image: url(../Main_Story_Banner.png);
+}
+
+#main_stories .fall {
+  background-image: url(../Autumn.png);
+}
+
+#main_stories .photographer {
+  background-image: url(../Cameraman.png);
 }
 
 #center_stories {
@@ -20,6 +37,7 @@
   flex-direction: column;
   width: 300px;
   justify-content: space-between;
+  text-align: center;
 }
 
 #side_bar {
@@ -27,6 +45,36 @@
   flex-direction: column;
   width: 240px;
   justify-content: space-between;
+  text-align: center;
+}
+
+#side_bar span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#side_bar li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  color: dimgray;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+#footer {
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer .name {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
 
 #footer li {
