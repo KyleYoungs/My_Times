@@ -5,6 +5,7 @@
 #banner li {
   display: inline;
   justify-content: space-around;
+  list-style:none;
 }
 
 #main_stories {
@@ -26,4 +27,24 @@
   flex-direction: column;
   width: 240px;
   justify-content: space-between;
+}
+
+#footer li {
+  list-style: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black
+}
+
+a:active {
+  color: black;
 }
