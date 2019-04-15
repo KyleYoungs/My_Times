@@ -1,15 +1,16 @@
 #banner {
-  display: inline;
-  border-bottom: 1px solid black
+  display: inline-flex;
+  border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
 }
 
 #banner li {
   display: inline;
   justify-content: space-around;
-  list-style:none;
+  list-style: none;
 }
 
 #main_stories {
@@ -22,6 +23,7 @@
 
 #main_stories .main {
   background-image: url(../Main_Story_Banner.png);
+  height: auto;
 }
 
 #main_stories .fall {
