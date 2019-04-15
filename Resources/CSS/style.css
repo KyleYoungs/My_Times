@@ -1,0 +1,71 @@
+#banner {
+  display: inline-block;
+  border-bottom: solid 1px black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#banner li {
+  list-style: none;
+}
+
+#main_story span {
+  background-image: url(../Main_Story_Banner.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#main_story p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#center_stories {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#center_stories .cats {
+  background-image: url(../Cat.png);
+}
+
+#side_bar {
+  display: inline-flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+#bottom_stories .fall {
+  background-image: url(../Autumn.png);
+}
+
+#bottom_stories .photographer {
+  background-image: url(../Cameraman.png);
+}
+
+#mains_story #bottom_stories {
+  display: inline-flex
+  flex-direction: column;
+  width: 630px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black
+}
+
+a:active {
+  color: black;
+}

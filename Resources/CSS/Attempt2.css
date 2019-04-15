@@ -1,0 +1,29 @@
+#banner {
+  display: inline;
+}
+
+#banner li {
+  display: inline;
+  justify-content: space-around;
+}
+
+#main_stories {
+  display: inline-flex;
+  flex-direction: column;
+  width: 630px;
+  justify-content: space-between;
+}
+
+#center_stories {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+}
+
+#side_bar {
+  display: inline-flex;
+  flex-direction: column;
+  width: 240px;
+  justify-content: space-between;
+}
